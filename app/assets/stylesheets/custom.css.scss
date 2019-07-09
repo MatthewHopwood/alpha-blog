@@ -3,6 +3,10 @@ $navbar-default-bg: #051f3a;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+  color: white;
+}
+
 #logo {
   float:left;
   font-size: 1.7em;
@@ -16,59 +20,88 @@ $navbar-default-bg: #051f3a;
   color: white;
   text-decoration: none;
 }
-
-.center {
-  text-align: center;
+.container-fluid {
+  padding: 0;
+}
+.custom-nav {
+  margin-bottom: 0;
+  height: 5vh;
+  background-color: transparent;
 }
 
-.jumbotron {
-  background-image: asset-url('mountains-hero.jpg');
+.custom-main {
+  background-image: asset-url('black_brick.jpg');
   background-size: cover;
-  height: 685px;
+  height: 100vh;
+  text-align: center;
+}
+.main-content {
+  text-align: center;
+  height: 90vh;
 }
 
-.jumbotron h1{
-  color: #051f3a;
-  text-align: center;
-  margin-bottom: 30px;
-  letter-spacing: -1px;
-  font-weight: bold;
+.main-heading {
+  color: white;
+  font-weight: 900;
+  font-size: 10em;
+  margin-top: 0;
+}
+
+.small-divider {
+  margin-bottom: 35px;
+  width: 520px;
 }
 
 .btn-xlarge {
-  font-size: 1.7em;
-  background-color: #748eac;
+  font-size: 3em;
+  background-color: #ffffff;
   border-color: black;
-  color: #000;
+  color: black;
   font-weight: bold;
 }
 
 .btn-xlarge:hover {
-  background-color:#051f3a;
+  background-color:black;
   color: white;
+  border-color: white;
+}
+
+.create-article-btn {
+  color: black;
+}
+
+th, td {
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+th {
+  font-size: 20px;
+}
+
+.list-none {
+  list-style: none;
 }
 
 footer {
-  margin-top: 45px;
-  padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: 777;
+  border-top: 1px solid white;
+  color: white;
+  height: 5vh;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 footer a:hover {
-  color: #222;
+  color: white;
+  text-decoration: none;
 }
 
 footer small {
   float: left; 
 }
 
-footer ul {
+footer ul li a {
   float: right;
   list-style: none;
-}
-
-footer ul li {
-  float: left;
-  margin-left: 15px;
+  margin-right: 5px;
 }
