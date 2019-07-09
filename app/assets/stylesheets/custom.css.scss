@@ -159,6 +159,11 @@ footer ul li a {
   list-style: none;
   margin-right: 5px;
 }
+
+.btn-xs, .btn-group-xs > .btn {
+  text-decoration: none;
+}
+
 .row {
   margin-right: 0;
   margin-left: 0;
