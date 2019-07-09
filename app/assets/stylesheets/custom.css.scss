@@ -88,12 +88,21 @@ th {
   font-size: 20px;
 }
 
+.article-action {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
+}
+
 footer {
   border-top: 1px solid white;
   color: white;
   height: 5vh;
-  margin-left: 80px;
-  margin-right: 80px;
+  //margin-left: 80px;
+  //margin-right: 80px;
 }
 
 a:hover {
