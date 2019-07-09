@@ -22,11 +22,17 @@ body {
 }
 
 a {
-  color: #b1f3ff;
+  color: white;
+  text-decoration: underline
 }
 
 .panel-danger {
   text-align: left;
+}
+
+.style-margin {
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .container-fluid {
@@ -41,12 +47,13 @@ a {
 .custom-main {
   background-image: asset-url('black_brick.jpg');
   background-size: cover;
-  height: 100vh;
+  background-repeat: repeat-y;
+  //height: 100vh;
   text-align: center;
 }
 .main-content {
   text-align: center;
-  height: 90vh;
+  min-height: 90vh;
 }
 
 .main-heading {
@@ -93,6 +100,27 @@ th {
   padding-top: 5px;
 }
 
+.article-body {
+  border-top: 1px solid #eaeaea;
+  padding: 15px 0;
+  color: black;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-title a {
+  color: black;
+  
+}
+
+.article-title a:hover {
+  color: orangered;
+  text-decoration: none;
+}
+
 .description {
   margin-top: 0;
 }
@@ -106,7 +134,7 @@ footer {
 }
 
 a:hover {
-  color: white;
+  color: orangered;
   text-decoration: none;
 }
 
