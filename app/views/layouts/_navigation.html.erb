@@ -23,10 +23,6 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Actions<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li> <%= link_to "New Article", new_article_path(current_user) %> </li>
-                  <li> <%= link_to "View your profile", user_path(current_user) %> </li>
-                  <li><a href="#">Action</a></li>
-                  <li role="seperator" class="divider"></li>
-                  <li><a href="#">Action</a></li>
                 </ul>
               </li>
             <% end %>
@@ -39,9 +35,6 @@
                 <ul class="dropdown-menu">
                   <li> <%= link_to "Edit your profile", edit_user_path(current_user) %> </li>
                   <li> <%= link_to "View your profile", user_path(current_user) %> </li>
-                  <li><a href="#">Action</a></li>
-                  <li role="seperator" class="divider"></li>
-                  <li><a href="#">Action</a></li>
                 </ul>
               </li>
             <% else %>
