@@ -209,3 +209,20 @@ footer ul li a {
   background-color: transparent;
   color:#a09c9c;
 }
+
+.badge {
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  background-color: #001dff;
+  padding: 6px;
+  margin-right: 5px;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
+
+.black_bold {
+  color: black;
+  font-weight: bold;
+}
